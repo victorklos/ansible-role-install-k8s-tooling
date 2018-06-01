@@ -1,2 +1,22 @@
 ---
-# tasks file for install-k8s-tooling
+
+- name: add google signing key
+  apt_key:
+    id: 0x54A647F9048D5688D7DA2ABE6A030B21BA07F4FB
+    url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    state: present
+
+- name: add kubernetes repository
+  apt_repository:
+    repo: deb https://packages.cloud.google.com/apt/ kubernetes-{{ ansible_distribution_release }} main
+    state: present
+    filename: google-cloud
+
+- name: install tools
+  apt:
+    name: {{ item }}
+    state: present
+  with_items:
+    - kubelet
+    - kubeadm
+    - kubectl
