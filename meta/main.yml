@@ -1,0 +1,28 @@
+galaxy_info:
+  author: Victor Klos
+  description: Install user tools for kubernetes
+
+  issue_tracker_url: https://github.com/victorklos/ansible-role-install-k8s-tooling
+  license: BSD
+
+  min_ansible_version: 2.2
+
+  platforms:
+  - name: Debian
+    versions:
+    - 8
+    - 9
+  - name: Ubuntu
+    versions:
+    - 16.04
+    - 17.10
+    - 18.04
+
+  galaxy_tags:
+    kubernetes
+    k8s
+    kubeadm
+    kubectl
+    helm
+
+dependencies: []
