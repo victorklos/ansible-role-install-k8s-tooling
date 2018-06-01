@@ -10,14 +10,12 @@ galaxy_info:
   platforms:
   - name: Debian
     versions:
+    - jessie
     - stretch
-    - buster
-    - sid
   - name: Ubuntu
     versions:
-    - xenial
+    - yakkety
     - artful
-    - bionic
 
   galaxy_tags:
     - cloud
