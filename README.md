@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/victorklos/ansible-role-install-k8s-tooling.svg?branch=master)](https://travis-ci.org/victorklos/ansible-role-install-k8s-tooling)
+
+
 # install-k8s-tooling
 
 Install Kubernetes tools.
