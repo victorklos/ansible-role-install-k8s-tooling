@@ -1,3 +1,9 @@
+# This repository is archived
+
+Feel free to fork or whatever.
+
+---
+
 [![Build Status](https://travis-ci.org/victorklos/ansible-role-install-k8s-tooling.svg?branch=master)](https://travis-ci.org/victorklos/ansible-role-install-k8s-tooling)
 
 
